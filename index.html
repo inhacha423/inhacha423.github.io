@@ -47,7 +47,7 @@
         </div>
         <div class="col-md-8 pt-4 about">
            <p class='header'>About Me</p>
-            <p>Hi, my name is Inha Cha. I'm a Ph.D. student at Georgia Tech working with <a class="tag" href="https://richmondywong.com/index.php" target="_blank">Dr. Richmond Wong</a>! I'm working in the fields of Human-Computer Interaction (HCI), Design, and Science and Technology Studies (STS).</p> 
+            <p>Hi, my name is Inha Cha. I'm a second-year Ph.D. student at Georgia Tech working with <a class="tag" href="https://richmondywong.com/index.php" target="_blank">Dr. Richmond Wong</a>! I'm working in the fields of Human-Computer Interaction (HCI), Design, and Science and Technology Studies (STS).</p> 
             
           <p>My research includes:</p>
           <!-- <ul>
@@ -65,14 +65,27 @@
 
           <p>Before joining Georgia Tech, I worked as an AI product UX designer at Upstage. I completed my master's degree in the Dept. of Industrial Design at KAIST. I did my undergrad in Aesthetics and Information Science at Seoul National University.</p>
 
-            <p class="header pt-4">Recent News</p>
+            <!-- <p class="header pt-4">Recent News</p>
             <p>🩷 First-authored paper accepted to CHI 2025! Looking forward to reconnecting with familiar faces and meeting new ones in Japan! [Jan 2025]</p>
 
             <p>🔥 Recognized by Georgia Tech's Center for Teaching and Learning Thanks-a-Teacher Award for excellence in teaching and impact on student learning in CS 8001 [Dec 2024]</p>
 
         
             <p>🎉 Awarded a $5,000 Seed Grant from AIAI as PI for the project "AI non-use toolkits for design and creative professionals" [Nov 2024] </p>
-            <!-- <p>💫 Presented Ethics Pathways at the Mila – Quebec Artificial Intelligence Institute’s Human-Centered AI Reading Group [Aug 2024] -->
+             <p>💫 Presented Ethics Pathways at the Mila – Quebec Artificial Intelligence Institute’s Human-Centered AI Reading Group [Aug 2024] 
+             -->
+
+             <div class="news-container">
+              <p class="header pt-4">Recent News</p>
+              <div class="news-list">
+                <p>🌟 Joining the Digital Life Initiative at Cornell Tech, NYC as a Visiting Fellow for Summer 2025 [May 2025]</p>
+                <p>🩷 First-authored paper accepted to CHI 2025! Looking forward to reconnecting with familiar faces and meeting new ones in Japan! [Jan 2025]</p>
+                <p>🔥 Recognized by Georgia Tech's Center for Teaching and Learning Thanks-a-Teacher Award for excellence in teaching and impact on student learning in CS 8001 [Dec 2024]</p>
+                <p>🎉 Awarded a $5,000 Seed Grant from AIAI as PI for the project "AI non-use toolkits for design and creative professionals" [Nov 2024]</p>
+                <p>💫 Presented Ethics Pathways at the Mila – Quebec Artificial Intelligence Institute’s Human-Centered AI Reading Group [Aug 2024]</p>
+        
+              </div>
+            </div>
             
         
               <p class="header pt-4">Publications</p>
@@ -495,7 +508,15 @@
       border-radius: 40%;
     } */
 
-    
+    .news-list {
+  max-height: 6.5em; /* 약 3줄 정도 */
+  overflow-y: auto;
+  padding-right: 8px; /* 스크롤바 가림 방지 */
+}
+
+.news-list p {
+  margin-bottom: 0.5em;
+}
 
 </style>
 </html>
